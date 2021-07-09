@@ -1,0 +1,27 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th,
+.preview {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.preview {
+  font-family: arial, sans-serif;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
